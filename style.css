@@ -1,56 +1,40 @@
+@font-face {
+font-family: 'gotham black';
+src: url(https://doublevirgo.github.io/fonts/gothamblack.woff) format('woff');
+}
 body { 
-background-image: url("https://doublevirgo.github.io/pics/sky.jpg");
+background-image: url("https://doublevirgo.github.io/pics/");
 background-repeat: no-repeat;
 background-size: cover;
 }
-
-@font-face {
-font-family: #;
-src: url(#);
-}
-
-img.next {
-left: 90%;
-top: 85%;
-position: fixed;
-}
-img.next2 {
-right: 90%;
-top: 85%;
-position: fixed;
-}
-
-img.border {
-left:84%;
-height: 100%;
-top: 20%;
-position: absolute;
-}
-img.border2 {
-right: 84%;
-height: 100%;
-top: 20%;
-position: absolute;
-}
-p.heading {
+.top {
 text-align: center;
-font-size: 72px;
-font-family: 'Heading';
-margin:0;
 }
-p.subheading {
-margin:0;
-text-align: left;
-margin-left: 250px;
-margin-right:200px;
-font-size: 48px;
-font-family: 'Heading';
-text-decoration:underline;
+.header {
+border-bottom: none;
+padding: 50px 0;
+overflow: visible;
 }
-p.text {
-margin:0;
-margin-left: 250px;
-margin-right:200px;
-text-align: left;font-size: 20px;
-font-family: 'Linx';
+ul>li>a {
+font-family: "gotham black";
+font-size: 26px;
+text-transform: uppercase;
+color: #000;
+letter-spacing: 5px;
+}    
+ul {
+color: #000;
+list-style: none;
+}    
+li {
+display: inline;
+font-weight: 900;
+padding: 2.5%;
+}
+a {
+padding: 18px;
+text-decoration: none;
+}
+a:hover {
+color: #7FBFFF;
 }
