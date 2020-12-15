@@ -26,8 +26,8 @@ padding: 10px;
 .container {
 max-width: 1000px;
 width: 100%;
-padding-right: 15px;
-padding-left: 15px;
+padding-right: 10px;
+padding-left: 10px;
 margin-right: auto;
 margin-left: auto;
 box-sizing: border-box;
@@ -52,10 +52,10 @@ list-style: none;
 li {
 display: inline;
 font-weight: 900;
-padding: 2.5%;
+padding: 2%;
 }
 a {
-padding: 18px;
+padding: 14px;
 text-decoration: none;
 }
 a:hover {
