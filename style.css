@@ -17,7 +17,7 @@ display: block;
 text-align: center;
 text-transform: uppercase;
 color: #fff;
-font-family: karasuma;
+font-family: "Arial", sans serif;
 font-weight: bold;
 font-size: 12px;
 background: #96daea;
@@ -39,7 +39,7 @@ padding: 50px 0;
 overflow: visible;
 }
 ul>li>a {
-font-family: "Arial";
+font-family: karasuma;
 font-size: 26px;
 text-transform: uppercase;
 color: #000;
