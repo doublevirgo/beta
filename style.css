@@ -1,6 +1,10 @@
 @font-face {
-font-family: 'karasuma';
+font-family: 'karasuma medium';
 src: url(https://doublevirgo.github.io/fonts/karasumagothic-medium.woff) format('woff');
+}
+@font-face {
+font-family: 'karasuma light';
+src: url(https://doublevirgo.github.io/fonts/karasumagothic-light.woff) format('woff');
 }
 body { 
 margin: 0;
@@ -17,7 +21,7 @@ display: block;
 text-align: center;
 text-transform: uppercase;
 color: #fff;
-font-family: "Arial", sans serif;
+font-family: karasuma light;
 font-weight: bold;
 font-size: 11px;
 background: #96daea;
@@ -39,7 +43,7 @@ padding: 50px 0;
 overflow: visible;
 }
 ul>li>a {
-font-family: karasuma;
+font-family: karasuma medium;
 font-size: 26px;
 text-transform: uppercase;
 color: #000;
