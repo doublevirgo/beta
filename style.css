@@ -16,7 +16,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .top {
-top:0px;
+bottom:0px;
 display: block;
 text-align: center;
 text-transform: uppercase;
